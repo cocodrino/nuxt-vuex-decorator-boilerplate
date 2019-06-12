@@ -1,5 +1,11 @@
 export * from './state';
 
+export interface Task {
+  id? : string,
+  title: string,
+  description: string
+}
+
 export interface Person {
   id: number;
   first_name: string;
