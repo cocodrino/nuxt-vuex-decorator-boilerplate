@@ -9,7 +9,8 @@
     "nuxt": "^2.8.1",
     "nuxt-property-decorator": "^2.3.0",
     "ts-node": "8.2.0",
-    "vuex-class": "^0.3.2"
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^0.9.9"
   },
   "scripts": {
     "dev": "nuxt",

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-9/12 mx-auto">
     <nuxt/>
   </div>
 </template>

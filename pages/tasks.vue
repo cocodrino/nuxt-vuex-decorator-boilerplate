@@ -28,18 +28,27 @@
 </template>
 
 <script lang="ts">
-    import {Mutation, State, Vue} from "nuxt-property-decorator";
+    import {Component, Vue} from "nuxt-property-decorator";
     import {Task} from "~/types";
-    import {Component} from "~/node_modules/nuxt-property-decorator";
+    import {exampleStore,initialiseStores} from "~/utils/store-accessor";
+    import {getModule} from "~/node_modules/vuex-module-decorators";
 
     @Component
     export default class extends Vue{
-        @State tasks : Task[] | undefined;
+        mount(){
+            initialiseStores(this.$store);
+        }
+
+        get tasks() {
+            this.mount();
+            return exampleStore.count
+        }
+
         name: string = "pedro";
         titulo: string = "";
         description: string = "";
 
-        @Mutation setTask: any;
+
 
         saveTask(){
             console.log("guardando " + this.titulo + " " + this.description)
