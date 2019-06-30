@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2962025f-237e-4ccf-a5db-233971143fb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tasks.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tasks.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="2962025f-237e-4ccf-a5db-233971143fb8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +89,7 @@
       <workItem from="1560947395987" duration="466000" />
       <workItem from="1561428266207" duration="1203000" />
       <workItem from="1561465046248" duration="602000" />
-      <workItem from="1561912108800" duration="2611000" />
+      <workItem from="1561912108800" duration="2973000" />
     </task>
     <servers />
   </component>

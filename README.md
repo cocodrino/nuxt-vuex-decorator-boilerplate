@@ -1,3 +1,9 @@
+# ABOUT
+
+Using championswimmer/vuex-module-decorators with nuxt can be
+a bit confusing, this project is a boilerplate with the minimal code
+demostrating how use nuxt vuex typescript and tailwind
+
 # nuxt-typescript-vuex-based-template
 
 > Nuxt.js TypeScript project
